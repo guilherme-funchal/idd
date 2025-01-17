@@ -1,0 +1,1004 @@
+Timestamp: 2025-01-16T22:55:04.140Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[224,68,222,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.142Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",389,0,1]
+
+Timestamp: 2025-01-16T22:55:04.143Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.460Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",393,0,2]
+
+Timestamp: 2025-01-16T22:55:04.460Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","kdf:argon2i:mod","abc",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.461Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",395,0,1]
+
+Timestamp: 2025-01-16T22:55:04.461Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [2,{"type":"Buffer","data":[]},0]
+
+Timestamp: 2025-01-16T22:55:04.462Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",397,0,{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.462Z
+Function: nativeAriesAskar.askar_session_fetch
+Arguments: [1,"unknownCategory","unknownKey",0]
+
+Timestamp: 2025-01-16T22:55:04.462Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [2]
+
+Timestamp: 2025-01-16T22:55:04.463Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [1]
+
+Timestamp: 2025-01-16T22:55:04.464Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",403,0,1]
+
+Timestamp: 2025-01-16T22:55:04.464Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.465Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[128,194,42,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.466Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",408,0,3]
+
+Timestamp: 2025-01-16T22:55:04.466Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.519Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",411,0,4]
+
+Timestamp: 2025-01-16T22:55:04.519Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","kdf:argon2i:int","abc",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.519Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",413,0,2]
+
+Timestamp: 2025-01-16T22:55:04.520Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [4,{"type":"Buffer","data":[]},0]
+
+Timestamp: 2025-01-16T22:55:04.520Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",415,0,{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.520Z
+Function: nativeAriesAskar.askar_session_fetch
+Arguments: [2,"unknownCategory","unknownKey",0]
+
+Timestamp: 2025-01-16T22:55:04.520Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [4]
+
+Timestamp: 2025-01-16T22:55:04.521Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [3]
+
+Timestamp: 2025-01-16T22:55:04.521Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",421,0,1]
+
+Timestamp: 2025-01-16T22:55:04.521Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.522Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[64,130,160,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.523Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",426,0,5]
+
+Timestamp: 2025-01-16T22:55:04.523Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.524Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"type":"Buffer","data":[]},{"type":"Buffer","data":[32,235,36,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.556Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",430,0,6]
+
+Timestamp: 2025-01-16T22:55:04.556Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://./tmp/rekey.db","raw","8b4XR9PxiVCL7j9fPPPT1PXvA4uNttsWVwASxzoQ7b6j","rekey",1]
+
+Timestamp: 2025-01-16T22:55:04.556Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"type":"Buffer","data":[]},{"type":"Buffer","data":[160,209,36,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.556Z
+Function: nativeAriesAskar.askar_store_rekey
+Arguments: [6,"raw","Ayzp5LMrVFw7G59dNnX6zPZhVFtSumwtFVkHb2b6fq47"]
+
+Timestamp: 2025-01-16T22:55:04.564Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [6]
+
+Timestamp: 2025-01-16T22:55:04.573Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",434,4,0]
+
+Timestamp: 2025-01-16T22:55:04.584Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",437,0,7]
+
+Timestamp: 2025-01-16T22:55:04.584Z
+Function: nativeAriesAskar.askar_store_open
+Arguments: ["sqlite://./tmp/rekey.db","raw","Ayzp5LMrVFw7G59dNnX6zPZhVFtSumwtFVkHb2b6fq47","rekey"]
+
+Timestamp: 2025-01-16T22:55:04.584Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [7]
+
+Timestamp: 2025-01-16T22:55:04.584Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",440,0,1]
+
+Timestamp: 2025-01-16T22:55:04.584Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://./tmp/rekey.db"]
+
+Timestamp: 2025-01-16T22:55:04.584Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [5]
+
+Timestamp: 2025-01-16T22:55:04.585Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",444,0,1]
+
+Timestamp: 2025-01-16T22:55:04.585Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.585Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[208,221,212,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.586Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",449,0,8]
+
+Timestamp: 2025-01-16T22:55:04.586Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.587Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",452,0,3]
+
+Timestamp: 2025-01-16T22:55:04.587Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [8,{"type":"Buffer","data":[]},0]
+
+Timestamp: 2025-01-16T22:55:04.588Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",455,0,1]
+
+Timestamp: 2025-01-16T22:55:04.588Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [3,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.588Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [3,0]
+
+Timestamp: 2025-01-16T22:55:04.589Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [8]
+
+Timestamp: 2025-01-16T22:55:04.589Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",460,0,1]
+
+Timestamp: 2025-01-16T22:55:04.589Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.590Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[160,149,112,241,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.591Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",465,0,9]
+
+Timestamp: 2025-01-16T22:55:04.591Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.591Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",468,0,4]
+
+Timestamp: 2025-01-16T22:55:04.591Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [9,{"type":"Buffer","data":[]},0]
+
+Timestamp: 2025-01-16T22:55:04.592Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",471,0,1]
+
+Timestamp: 2025-01-16T22:55:04.592Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [4,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.593Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",474,0,1]
+
+Timestamp: 2025-01-16T22:55:04.593Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [4,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.593Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [4,0]
+
+Timestamp: 2025-01-16T22:55:04.593Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [9]
+
+Timestamp: 2025-01-16T22:55:04.594Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",479,0,1]
+
+Timestamp: 2025-01-16T22:55:04.594Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.594Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[128,246,37,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.595Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",484,0,10]
+
+Timestamp: 2025-01-16T22:55:04.595Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.596Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",487,0,5]
+
+Timestamp: 2025-01-16T22:55:04.596Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [10,{"type":"Buffer","data":[]},0]
+
+Timestamp: 2025-01-16T22:55:04.596Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",490,0,1]
+
+Timestamp: 2025-01-16T22:55:04.597Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [5,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.597Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",493,0,0]
+
+Timestamp: 2025-01-16T22:55:04.597Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [5,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.597Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [5,0]
+
+Timestamp: 2025-01-16T22:55:04.597Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [10]
+
+Timestamp: 2025-01-16T22:55:04.598Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",498,0,1]
+
+Timestamp: 2025-01-16T22:55:04.598Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.598Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[0,201,41,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.599Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",503,0,11]
+
+Timestamp: 2025-01-16T22:55:04.599Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.600Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",506,0,6]
+
+Timestamp: 2025-01-16T22:55:04.600Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [11,{"type":"Buffer","data":[]},0]
+
+Timestamp: 2025-01-16T22:55:04.601Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",510,0,2]
+
+Timestamp: 2025-01-16T22:55:04.601Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [6,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.601Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",512,0,2]
+
+Timestamp: 2025-01-16T22:55:04.601Z
+Function: nativeAriesAskar.askar_session_remove_all
+Arguments: [6,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.602Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",514,0,0]
+
+Timestamp: 2025-01-16T22:55:04.602Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [6,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.602Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [6,0]
+
+Timestamp: 2025-01-16T22:55:04.602Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [11]
+
+Timestamp: 2025-01-16T22:55:04.602Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",519,0,1]
+
+Timestamp: 2025-01-16T22:55:04.602Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.603Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[144,10,39,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.604Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",524,0,12]
+
+Timestamp: 2025-01-16T22:55:04.604Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.604Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",527,0,7]
+
+Timestamp: 2025-01-16T22:55:04.604Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [12,{"type":"Buffer","data":[]},0]
+
+Timestamp: 2025-01-16T22:55:04.605Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",531,0,1]
+
+Timestamp: 2025-01-16T22:55:04.605Z
+Function: nativeAriesAskar.askar_scan_start
+Arguments: [12,{"type":"Buffer","data":[]},"category-one",{"type":"Buffer","data":[]},0,-1]
+
+Timestamp: 2025-01-16T22:55:04.606Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",533,0,{"type":"Buffer","data":[2]}]
+
+Timestamp: 2025-01-16T22:55:04.606Z
+Function: nativeAriesAskar.askar_scan_next
+Arguments: [1]
+
+Timestamp: 2025-01-16T22:55:04.606Z
+Function: nativeAriesAskar.askar_entry_list_count
+Arguments: [{"type":"Buffer","data":[2]},{"type":"Buffer","data":[2,0,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.606Z
+Function: nativeAriesAskar.askar_entry_list_get_name
+Arguments: [{"type":"Buffer","data":[2]},0,{"type":"Buffer","data":[144,37,169,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.606Z
+Function: nativeAriesAskar.askar_entry_list_get_value
+Arguments: [{"type":"Buffer","data":[2]},0,{"type":"Buffer","data":[13,0,0,0,0,0,0,0,96,100,169,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.606Z
+Function: nativeAriesAskar.askar_entry_list_get_tags
+Arguments: [{"type":"Buffer","data":[2]},0,{"type":"Buffer","data":[32,153,169,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.606Z
+Function: nativeAriesAskar.askar_entry_list_get_category
+Arguments: [{"type":"Buffer","data":[2]},0,{"type":"Buffer","data":[224,172,169,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.606Z
+Function: nativeAriesAskar.askar_entry_list_get_name
+Arguments: [{"type":"Buffer","data":[2]},1,{"type":"Buffer","data":[192,223,169,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.606Z
+Function: nativeAriesAskar.askar_entry_list_get_value
+Arguments: [{"type":"Buffer","data":[2]},1,{"type":"Buffer","data":[6,0,0,0,0,0,0,0,64,242,169,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.607Z
+Function: nativeAriesAskar.askar_entry_list_get_tags
+Arguments: [{"type":"Buffer","data":[2]},1,{"type":"Buffer","data":[192,4,170,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.607Z
+Function: nativeAriesAskar.askar_entry_list_get_category
+Arguments: [{"type":"Buffer","data":[2]},1,{"type":"Buffer","data":[80,23,170,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.607Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",535,0,{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.607Z
+Function: nativeAriesAskar.askar_scan_next
+Arguments: [1]
+
+Timestamp: 2025-01-16T22:55:04.607Z
+Function: nativeAriesAskar.askar_scan_free
+Arguments: [1]
+
+Timestamp: 2025-01-16T22:55:04.607Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [7,0]
+
+Timestamp: 2025-01-16T22:55:04.607Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [12]
+
+Timestamp: 2025-01-16T22:55:04.608Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",541,0,1]
+
+Timestamp: 2025-01-16T22:55:04.608Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.608Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[192,155,170,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.609Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",546,0,13]
+
+Timestamp: 2025-01-16T22:55:04.609Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.609Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",549,0,8]
+
+Timestamp: 2025-01-16T22:55:04.609Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [13,{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.610Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",552,0,1]
+
+Timestamp: 2025-01-16T22:55:04.610Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [8,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.611Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",554,0,{"type":"Buffer","data":[12]}]
+
+Timestamp: 2025-01-16T22:55:04.611Z
+Function: nativeAriesAskar.askar_session_fetch
+Arguments: [8,"category-one","testEntry",0]
+
+Timestamp: 2025-01-16T22:55:04.611Z
+Function: nativeAriesAskar.askar_entry_list_get_name
+Arguments: [{"type":"Buffer","data":[12]},0,{"type":"Buffer","data":[208,183,171,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.611Z
+Function: nativeAriesAskar.askar_entry_list_get_value
+Arguments: [{"type":"Buffer","data":[12]},0,{"type":"Buffer","data":[6,0,0,0,0,0,0,0,80,202,171,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.611Z
+Function: nativeAriesAskar.askar_entry_list_get_tags
+Arguments: [{"type":"Buffer","data":[12]},0,{"type":"Buffer","data":[208,220,171,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.611Z
+Function: nativeAriesAskar.askar_entry_list_get_category
+Arguments: [{"type":"Buffer","data":[12]},0,{"type":"Buffer","data":[96,239,171,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.611Z
+Function: nativeAriesAskar.askar_entry_list_free
+Arguments: [{"type":"Buffer","data":[12]}]
+
+Timestamp: 2025-01-16T22:55:04.613Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",556,0,{"type":"Buffer","data":[1]}]
+
+Timestamp: 2025-01-16T22:55:04.613Z
+Function: nativeAriesAskar.askar_session_fetch_all
+Arguments: [8,"category-one",{"type":"Buffer","data":[]},-1,0]
+
+Timestamp: 2025-01-16T22:55:04.613Z
+Function: nativeAriesAskar.askar_entry_list_count
+Arguments: [{"type":"Buffer","data":[1]},{"type":"Buffer","data":[1,0,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.613Z
+Function: nativeAriesAskar.askar_entry_list_get_name
+Arguments: [{"type":"Buffer","data":[1]},0,{"type":"Buffer","data":[240,71,172,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.614Z
+Function: nativeAriesAskar.askar_entry_list_get_value
+Arguments: [{"type":"Buffer","data":[1]},0,{"type":"Buffer","data":[6,0,0,0,0,0,0,0,112,90,172,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.614Z
+Function: nativeAriesAskar.askar_entry_list_get_tags
+Arguments: [{"type":"Buffer","data":[1]},0,{"type":"Buffer","data":[80,141,172,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.614Z
+Function: nativeAriesAskar.askar_entry_list_get_category
+Arguments: [{"type":"Buffer","data":[1]},0,{"type":"Buffer","data":[224,159,172,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.614Z
+Function: nativeAriesAskar.askar_entry_list_free
+Arguments: [{"type":"Buffer","data":[1]}]
+
+Timestamp: 2025-01-16T22:55:04.614Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [8,1]
+
+Timestamp: 2025-01-16T22:55:04.614Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",559,0,9]
+
+Timestamp: 2025-01-16T22:55:04.614Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [13,{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.615Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",561,0,{"type":"Buffer","data":[12]}]
+
+Timestamp: 2025-01-16T22:55:04.615Z
+Function: nativeAriesAskar.askar_session_fetch
+Arguments: [9,"category-one","testEntry",0]
+
+Timestamp: 2025-01-16T22:55:04.615Z
+Function: nativeAriesAskar.askar_entry_list_get_name
+Arguments: [{"type":"Buffer","data":[12]},0,{"type":"Buffer","data":[80,27,173,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.615Z
+Function: nativeAriesAskar.askar_entry_list_get_value
+Arguments: [{"type":"Buffer","data":[12]},0,{"type":"Buffer","data":[6,0,0,0,0,0,0,0,208,45,173,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.615Z
+Function: nativeAriesAskar.askar_entry_list_get_tags
+Arguments: [{"type":"Buffer","data":[12]},0,{"type":"Buffer","data":[240,7,48,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.615Z
+Function: nativeAriesAskar.askar_entry_list_get_category
+Arguments: [{"type":"Buffer","data":[12]},0,{"type":"Buffer","data":[224,58,48,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.615Z
+Function: nativeAriesAskar.askar_entry_list_free
+Arguments: [{"type":"Buffer","data":[12]}]
+
+Timestamp: 2025-01-16T22:55:04.616Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [13]
+
+Timestamp: 2025-01-16T22:55:04.616Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",565,0,1]
+
+Timestamp: 2025-01-16T22:55:04.616Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.617Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[192,113,48,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.618Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",570,0,14]
+
+Timestamp: 2025-01-16T22:55:04.618Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.618Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",573,0,10]
+
+Timestamp: 2025-01-16T22:55:04.618Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [14,{"type":"Buffer","data":[]},0]
+
+Timestamp: 2025-01-16T22:55:04.619Z
+Function: nativeAriesAskar.askar_key_generate
+Arguments: ["ed25519",0,{"type":"Buffer","data":[144,5,49,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.620Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",576,0,{"type":"Buffer","data":[0]}]
+
+Timestamp: 2025-01-16T22:55:04.620Z
+Function: nativeAriesAskar.askar_key_entry_list_count
+Arguments: [{"type":"Buffer","data":[0]},{"type":"Buffer","data":[0,0,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.620Z
+Function: nativeAriesAskar.askar_key_entry_list_get_algorithm
+Arguments: [{"type":"Buffer","data":[0]},0,{"type":"Buffer","data":[112,196,49,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.620Z
+Function: nativeAriesAskar.askar_key_entry_list_get_name
+Arguments: [{"type":"Buffer","data":[0]},0,{"type":"Buffer","data":[16,138,49,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.620Z
+Function: nativeAriesAskar.askar_key_entry_list_get_metadata
+Arguments: [{"type":"Buffer","data":[0]},0,{"type":"Buffer","data":[144,156,49,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.620Z
+Function: nativeAriesAskar.askar_key_entry_list_get_tags
+Arguments: [{"type":"Buffer","data":[0]},0,{"type":"Buffer","data":[80,220,49,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.621Z
+Function: nativeAriesAskar.askar_key_entry_list_load_local
+Arguments: [{"type":"Buffer","data":[0]},0,{"type":"Buffer","data":[176,14,50,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.621Z
+Function: nativeAriesAskar.askar_key_entry_list_free
+Arguments: [{"type":"Buffer","data":[0]}]
+
+Timestamp: 2025-01-16T22:55:04.622Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",579,0,{"type":"Buffer","data":[0]}]
+
+Timestamp: 2025-01-16T22:55:04.622Z
+Function: nativeAriesAskar.askar_key_entry_list_count
+Arguments: [{"type":"Buffer","data":[0]},{"type":"Buffer","data":[0,0,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.622Z
+Function: nativeAriesAskar.askar_key_entry_list_get_algorithm
+Arguments: [{"type":"Buffer","data":[0]},0,{"type":"Buffer","data":[240,144,50,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.622Z
+Function: nativeAriesAskar.askar_key_entry_list_get_name
+Arguments: [{"type":"Buffer","data":[0]},0,{"type":"Buffer","data":[112,163,50,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.622Z
+Function: nativeAriesAskar.askar_key_entry_list_get_metadata
+Arguments: [{"type":"Buffer","data":[0]},0,{"type":"Buffer","data":[240,181,50,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.622Z
+Function: nativeAriesAskar.askar_key_entry_list_get_tags
+Arguments: [{"type":"Buffer","data":[0]},0,{"type":"Buffer","data":[80,83,0,20,175,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.622Z
+Function: nativeAriesAskar.askar_key_entry_list_load_local
+Arguments: [{"type":"Buffer","data":[0]},0,{"type":"Buffer","data":[144,251,50,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.622Z
+Function: nativeAriesAskar.askar_key_entry_list_free
+Arguments: [{"type":"Buffer","data":[0]}]
+
+Timestamp: 2025-01-16T22:55:04.622Z
+Function: nativeAriesAskar.askar_key_get_algorithm
+Arguments: [{"type":"Buffer","data":[48]},{"type":"Buffer","data":[224,61,51,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.622Z
+Function: nativeAriesAskar.askar_key_get_jwk_thumbprint
+Arguments: [{"type":"Buffer","data":[48]},"ed25519",{"type":"Buffer","data":[144,75,51,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.623Z
+Function: nativeAriesAskar.askar_key_get_algorithm
+Arguments: [{"type":"Buffer","data":[80]},{"type":"Buffer","data":[80,20,51,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.623Z
+Function: nativeAriesAskar.askar_key_get_jwk_thumbprint
+Arguments: [{"type":"Buffer","data":[80]},"ed25519",{"type":"Buffer","data":[208,39,51,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.623Z
+Function: nativeAriesAskar.askar_key_get_algorithm
+Arguments: [{"type":"Buffer","data":[48]},{"type":"Buffer","data":[80,88,51,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.623Z
+Function: nativeAriesAskar.askar_key_get_jwk_thumbprint
+Arguments: [{"type":"Buffer","data":[48]},"ed25519",{"type":"Buffer","data":[208,107,51,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.623Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",581,0,{"type":"Buffer","data":[2]}]
+
+Timestamp: 2025-01-16T22:55:04.623Z
+Function: nativeAriesAskar.askar_session_fetch_all_keys
+Arguments: [10,"ed25519","IuopUSvPWZDJXou3MHDW1urEabCcwI4vNkQ1f5cZcGI","{\"a\":\"c\"}",-1,0]
+
+Timestamp: 2025-01-16T22:55:04.624Z
+Function: nativeAriesAskar.askar_key_entry_list_count
+Arguments: [{"type":"Buffer","data":[2]},{"type":"Buffer","data":[1,0,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.624Z
+Function: nativeAriesAskar.askar_key_entry_list_get_algorithm
+Arguments: [{"type":"Buffer","data":[2]},0,{"type":"Buffer","data":[144,226,51,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.624Z
+Function: nativeAriesAskar.askar_key_entry_list_get_name
+Arguments: [{"type":"Buffer","data":[2]},0,{"type":"Buffer","data":[16,245,51,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.624Z
+Function: nativeAriesAskar.askar_key_entry_list_get_metadata
+Arguments: [{"type":"Buffer","data":[2]},0,{"type":"Buffer","data":[144,7,52,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.624Z
+Function: nativeAriesAskar.askar_key_entry_list_get_tags
+Arguments: [{"type":"Buffer","data":[2]},0,{"type":"Buffer","data":[16,26,52,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.624Z
+Function: nativeAriesAskar.askar_key_entry_list_load_local
+Arguments: [{"type":"Buffer","data":[2]},0,{"type":"Buffer","data":[96,45,52,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.624Z
+Function: nativeAriesAskar.askar_key_entry_list_free
+Arguments: [{"type":"Buffer","data":[2]}]
+
+Timestamp: 2025-01-16T22:55:04.625Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",584,0,{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.625Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [10,0]
+
+Timestamp: 2025-01-16T22:55:04.625Z
+Function: nativeAriesAskar.askar_key_free
+Arguments: [{"type":"Buffer","data":[80]}]
+
+Timestamp: 2025-01-16T22:55:04.625Z
+Function: nativeAriesAskar.askar_key_free
+Arguments: [{"type":"Buffer","data":[48]}]
+
+Timestamp: 2025-01-16T22:55:04.625Z
+Function: nativeAriesAskar.askar_key_free
+Arguments: [{"type":"Buffer","data":[48]}]
+
+Timestamp: 2025-01-16T22:55:04.625Z
+Function: nativeAriesAskar.askar_key_free
+Arguments: [{"type":"Buffer","data":[0]}]
+
+Timestamp: 2025-01-16T22:55:04.625Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [14]
+
+Timestamp: 2025-01-16T22:55:04.625Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",590,0,1]
+
+Timestamp: 2025-01-16T22:55:04.625Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.626Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[96,234,52,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.627Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",595,0,15]
+
+Timestamp: 2025-01-16T22:55:04.627Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.627Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",598,0,11]
+
+Timestamp: 2025-01-16T22:55:04.627Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [15,{"type":"Buffer","data":[]},0]
+
+Timestamp: 2025-01-16T22:55:04.628Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [11,0]
+
+Timestamp: 2025-01-16T22:55:04.628Z
+Function: promisifyWithResponse
+Arguments: [null,"string",602,0,"2c476f9b-5f4a-407f-b8ea-17cc17cc93cd"]
+
+Timestamp: 2025-01-16T22:55:04.628Z
+Function: nativeAriesAskar.askar_store_create_profile
+Arguments: [15,{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.629Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",605,0,12]
+
+Timestamp: 2025-01-16T22:55:04.629Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [15,"2c476f9b-5f4a-407f-b8ea-17cc17cc93cd",0]
+
+Timestamp: 2025-01-16T22:55:04.629Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",607,0,0]
+
+Timestamp: 2025-01-16T22:55:04.630Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [12,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.630Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",610,0,1]
+
+Timestamp: 2025-01-16T22:55:04.630Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [12,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.630Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [12,0]
+
+Timestamp: 2025-01-16T22:55:04.631Z
+Function: promisifyWithResponse
+Arguments: [null,"string",613,3,null]
+
+Timestamp: 2025-01-16T22:55:04.631Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",615,0,13]
+
+Timestamp: 2025-01-16T22:55:04.631Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [15,"2c476f9b-5f4a-407f-b8ea-17cc17cc93cd",0]
+
+Timestamp: 2025-01-16T22:55:04.631Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",617,0,1]
+
+Timestamp: 2025-01-16T22:55:04.631Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [13,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.632Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [13,0]
+
+Timestamp: 2025-01-16T22:55:04.632Z
+Function: promisifyWithResponse
+Arguments: [null,"string",621,0,"2c476f9b-5f4a-407f-b8ea-17cc17cc93cd"]
+
+Timestamp: 2025-01-16T22:55:04.633Z
+Function: nativeAriesAskar.askar_store_get_default_profile
+Arguments: [15]
+
+Timestamp: 2025-01-16T22:55:04.633Z
+Function: promisifyWithResponse
+Arguments: [null,"pointer",624,0,{"type":"Buffer","data":[1]}]
+
+Timestamp: 2025-01-16T22:55:04.633Z
+Function: nativeAriesAskar.askar_store_list_profiles
+Arguments: [15]
+
+Timestamp: 2025-01-16T22:55:04.633Z
+Function: nativeAriesAskar.askar_string_list_get_item
+Arguments: [{"type":"Buffer","data":[1]},0,{"type":"Buffer","data":[64,164,55,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.634Z
+Function: nativeAriesAskar.askar_string_list_get_item
+Arguments: [{"type":"Buffer","data":[1]},1,{"type":"Buffer","data":[0,181,32,240,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.634Z
+Function: nativeAriesAskar.askar_string_list_free
+Arguments: [{"type":"Buffer","data":[1]}]
+
+Timestamp: 2025-01-16T22:55:04.634Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",626,0,1]
+
+Timestamp: 2025-01-16T22:55:04.634Z
+Function: nativeAriesAskar.askar_store_remove_profile
+Arguments: [15,"2c476f9b-5f4a-407f-b8ea-17cc17cc93cd"]
+
+Timestamp: 2025-01-16T22:55:04.635Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",628,6,0]
+
+Timestamp: 2025-01-16T22:55:04.635Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",631,6,0]
+
+Timestamp: 2025-01-16T22:55:04.636Z
+Function: promisifyWithResponse
+Arguments: [null,"string",634,0,"2c476f9b-5f4a-407f-b8ea-17cc17cc93cd"]
+
+Timestamp: 2025-01-16T22:55:04.636Z
+Function: nativeAriesAskar.askar_store_create_profile
+Arguments: [15,"2c476f9b-5f4a-407f-b8ea-17cc17cc93cd"]
+
+Timestamp: 2025-01-16T22:55:04.636Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",637,0,14]
+
+Timestamp: 2025-01-16T22:55:04.636Z
+Function: nativeAriesAskar.askar_session_start
+Arguments: [15,"2c476f9b-5f4a-407f-b8ea-17cc17cc93cd",0]
+
+Timestamp: 2025-01-16T22:55:04.636Z
+Function: promisifyWithResponse
+Arguments: [null,"int64",639,0,0]
+
+Timestamp: 2025-01-16T22:55:04.636Z
+Function: nativeAriesAskar.askar_session_count
+Arguments: [14,"category-one",{"type":"Buffer","data":[]}]
+
+Timestamp: 2025-01-16T22:55:04.636Z
+Function: nativeAriesAskar.askar_session_close
+Arguments: [14,0]
+
+Timestamp: 2025-01-16T22:55:04.636Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [15]
+
+Timestamp: 2025-01-16T22:55:04.637Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",644,0,1]
+
+Timestamp: 2025-01-16T22:55:04.637Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
+Timestamp: 2025-01-16T22:55:04.637Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[96,58,153,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.638Z
+Function: promisifyWithResponse
+Arguments: [null,"size_t",649,0,16]
+
+Timestamp: 2025-01-16T22:55:04.638Z
+Function: nativeAriesAskar.askar_store_provision
+Arguments: ["sqlite://:memory:","raw","CwMHrEQJnwvuE8q9zbR49jyYtVxVBHNTjCPEPk1aV3cP",{"type":"Buffer","data":[]},1]
+
+Timestamp: 2025-01-16T22:55:04.639Z
+Function: nativeAriesAskar.askar_store_generate_raw_key
+Arguments: [{"len":32,"data":{"type":"Buffer","data":[48,48,48,48,48,48,48,48]}},{"type":"Buffer","data":[96,131,151,224,182,127,0,0]}]
+
+Timestamp: 2025-01-16T22:55:04.641Z
+Function: nativeAriesAskar.askar_store_close
+Arguments: [16]
+
+Timestamp: 2025-01-16T22:55:04.641Z
+Function: promisifyWithResponse
+Arguments: [null,"int8",655,0,1]
+
+Timestamp: 2025-01-16T22:55:04.641Z
+Function: nativeAriesAskar.askar_store_remove
+Arguments: ["sqlite://:memory:"]
+
