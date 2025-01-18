@@ -1,0 +1,9 @@
+name: seu_projeto
+description: Descrição do seu projeto
+version: 1.0.0
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dev_dependencies:
+  test: ^1.22.0
+  ffi: ^2.0.0
