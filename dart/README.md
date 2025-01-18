@@ -1,4 +1,4 @@
-# Test FFI*
+# Test FFI
 
 ## Instalar DART
 sudo apt update
