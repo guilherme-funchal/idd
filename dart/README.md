@@ -14,3 +14,6 @@ source ~/.bashrc
 
 ## Executa criar banco
 dart run aries_askar/store.dart
+
+## Executa teste Open e Close
+dart run aries_askar/store_provision_open_close.dart
