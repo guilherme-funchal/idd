@@ -1,6 +1,7 @@
 # Test FFI
 
 ## Instalar DART
+<pre>
 sudo apt update
 sudo apt install -y apt-transport-https
 sudo sh -c 'wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | gpg --dearmor > /usr/share/keyrings/dart.gpg'
@@ -8,7 +9,8 @@ sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/dart.gpg] https://storage.g
 sudo apt update
 sudo apt install dartexport PATH="$PATH:/usr/lib/dart/bin"
 source ~/.bashrc
-
+</pre>
+  
 ## Atualiza Libs
 #dart pub get
 
