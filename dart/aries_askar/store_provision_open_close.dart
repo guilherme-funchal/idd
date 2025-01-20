@@ -2,17 +2,20 @@ import 'dart:ffi';
 import 'package:ffi/ffi.dart';
 
 // Carregar a biblioteca compartilhada diretamente
-final DynamicLibrary askarLib = DynamicLibrary.open('/usr/local/lib/libaries_askar.so');
+final DynamicLibrary askarLib =
+    DynamicLibrary.open('/usr/local/lib/libaries_askar.so');
 
 // Definição de tipos de funções nativas (função provision)
-typedef ProvisionC = Int32 Function(
-    Pointer<Utf8> uri, Pointer<Utf8> keyMethod, Pointer<Utf8> passKey, Pointer<Utf8> profile, Int32 recreate);
-typedef ProvisionDart = int Function(
-    Pointer<Utf8> uri, Pointer<Utf8> keyMethod, Pointer<Utf8> passKey, Pointer<Utf8> profile, int recreate);
+typedef ProvisionC = Int32 Function(Pointer<Utf8> uri, Pointer<Utf8> keyMethod,
+    Pointer<Utf8> passKey, Pointer<Utf8> profile, Int32 recreate);
+typedef ProvisionDart = int Function(Pointer<Utf8> uri, Pointer<Utf8> keyMethod,
+    Pointer<Utf8> passKey, Pointer<Utf8> profile, int recreate);
 
 // Definição de tipos de funções nativas (função open)
-typedef OpenC = Int32 Function(Pointer<Utf8> uri, Pointer<Utf8> profile, Pointer<Utf8> key);
-typedef OpenDart = int Function(Pointer<Utf8> uri, Pointer<Utf8> profile, Pointer<Utf8> key);
+typedef OpenC = Int32 Function(
+    Pointer<Utf8> uri, Pointer<Utf8> profile, Pointer<Utf8> key);
+typedef OpenDart = int Function(
+    Pointer<Utf8> uri, Pointer<Utf8> profile, Pointer<Utf8> key);
 
 // Definição de tipos de funções nativas (função close)
 typedef CloseC = Int32 Function(Int32 remove);
@@ -54,7 +57,8 @@ class AskarError implements Exception {
 
   @override
   String toString() {
-    var errorInfo = 'AskarError(code: ${code.name}, codeValue: ${code.value}, message: $message';
+    var errorInfo =
+        'AskarError(code: ${code.name}, codeValue: ${code.value}, message: $message';
     if (extra != null) {
       errorInfo += ', extra: $extra';
     }
@@ -75,8 +79,10 @@ void checkError(int resultCode, String functionName) {
 }
 
 // Função para provisionar o store
-void provisionStore(DynamicLibrary askarLib, String uri, String keyMethod, String passKey, String profile, int recreate) {
-  final ProvisionDart provision = askarLib.lookupFunction<ProvisionC, ProvisionDart>('askar_store_provision');
+void provisionStore(DynamicLibrary askarLib, String uri, String keyMethod,
+    String passKey, String profile, int recreate) {
+  final ProvisionDart provision = askarLib
+      .lookupFunction<ProvisionC, ProvisionDart>('askar_store_provision');
 
   // Converter Strings para UTF-8
   final uriPtr = uri.toNativeUtf8();
@@ -86,7 +92,8 @@ void provisionStore(DynamicLibrary askarLib, String uri, String keyMethod, Strin
 
   try {
     // Chamar a função provision
-    final result = provision(uriPtr, keyMethodPtr, passKeyPtr, profilePtr, recreate);
+    final result =
+        provision(uriPtr, keyMethodPtr, passKeyPtr, profilePtr, recreate);
 
     // Verificar e tratar o código de erro
     checkError(result, 'askar_store_provision');
@@ -101,17 +108,19 @@ void provisionStore(DynamicLibrary askarLib, String uri, String keyMethod, Strin
 }
 
 // Função para abrir o store
-void openStore(DynamicLibrary askarLib, String uri, String profile, String key) {
-  final OpenDart open = askarLib.lookupFunction<OpenC, OpenDart>('askar_store_open');
+void openStore(
+    DynamicLibrary askarLib, String uri, String keyMethod, String key) {
+  final OpenDart open =
+      askarLib.lookupFunction<OpenC, OpenDart>('askar_store_open');
 
   // Converter Strings para UTF-8
   final uriPtr = uri.toNativeUtf8();
-  final profilePtr = profile.toNativeUtf8();
+  final keyMethodPtr = keyMethod.toNativeUtf8();
   final keyPtr = key.toNativeUtf8();
 
   try {
     // Chamar a função open
-    final result = open(uriPtr, profilePtr, keyPtr);
+    final result = open(uriPtr, keyMethodPtr, keyPtr);
 
     // Verificar e tratar o código de erro
     checkError(result, 'askar_store_open');
@@ -119,14 +128,15 @@ void openStore(DynamicLibrary askarLib, String uri, String profile, String key) 
   } finally {
     // Liberar memória alocada
     calloc.free(uriPtr);
-    calloc.free(profilePtr);
+    calloc.free(keyMethodPtr);
     calloc.free(keyPtr);
   }
 }
 
 // Função para fechar o store
 void closeStore(DynamicLibrary askarLib, int remove) {
-  final CloseDart close = askarLib.lookupFunction<CloseC, CloseDart>('askar_store_close');
+  final CloseDart close =
+      askarLib.lookupFunction<CloseC, CloseDart>('askar_store_close');
 
   // Chamar a função close
   final result = close(remove);
@@ -138,7 +148,8 @@ void closeStore(DynamicLibrary askarLib, int remove) {
 
 void main() {
   // Carregar a biblioteca compartilhada
-  final DynamicLibrary askarLib = DynamicLibrary.open('/usr/local/lib/libaries_askar.so');
+  final DynamicLibrary askarLib =
+      DynamicLibrary.open('/usr/local/lib/libaries_askar.so');
 
   // Parâmetros para provisionar o store
   final String uri = 'sqlite://storage.db';
@@ -153,10 +164,9 @@ void main() {
     Future.delayed(Duration(seconds: 5));
 
     // Abrir o store
-    openStore(askarLib, uri, profile, passKey);
+    openStore(askarLib, uri, keyMethod, passKey);
 
     // Aqui você pode realizar operações com o store
-
   } on AskarError catch (e) {
     print("Erro capturado: $e");
   } finally {
@@ -168,3 +178,4 @@ void main() {
     }
   }
 }
+
