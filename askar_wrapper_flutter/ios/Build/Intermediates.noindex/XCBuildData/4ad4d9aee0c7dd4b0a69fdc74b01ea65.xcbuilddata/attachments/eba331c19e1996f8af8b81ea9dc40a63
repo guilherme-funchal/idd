@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/serpro/Projetos/erique/credenciais/idd/askar_wrapper_flutter/build/ios/Debug-iphoneos/path_provider_foundation/path_provider_foundation.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/serpro/Projetos/erique/credenciais/idd/askar_wrapper_flutter/ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/path_provider_foundation.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/serpro/Projetos/erique/credenciais/idd/askar_wrapper_flutter/build/ios/Debug-iphoneos/path_provider_foundation/path_provider_foundation.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "path_provider_foundation-Swift.h",
+      'external-contents': "/Users/serpro/Projetos/erique/credenciais/idd/askar_wrapper_flutter/ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/path_provider_foundation.build/unextended-interface-header.h",
+    }]
+    }]
+}
